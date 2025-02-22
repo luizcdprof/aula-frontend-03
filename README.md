@@ -2,26 +2,26 @@
 
 # index.html
 O código HTML apresentado define a estrutura básica de uma página web. Vamos analisar cada parte:
-- <!DOCTYPE html>: Esta declaração indica ao navegador que o documento é um documento HTML5.
-- <html lang="pt-BR">: Define o idioma do documento como português do Brasil. Isso é importante para a acessibilidade e para que o navegador possa renderizar corretamente caracteres especiais e acentuação.
-- <head>: Contém metadados sobre a página, como o título, charset e informações para o navegador.
-- <meta charset="UTF-8">: Define o conjunto de caracteres utilizado na página. UTF-8 é um padrão amplamente utilizado que suporta uma ampla variedade de caracteres.
-- <meta name="viewport" content="width=device-width, initial-scale=1.0">: Configura a viewport para dispositivos móveis, garantindo que a página seja exibida corretamente em diferentes tamanhos de tela.   
-- <title>Exemplo de Layout</title>: Define o título da página, que é exibido na barra de título do navegador.
-- <link rel="stylesheet" href="styles.css">: Inclui um arquivo CSS externo chamado "styles.css", que contém as regras de estilo para a página.
-- <body>: Contém o conteúdo visível da página.
+- &lt;!DOCTYPE html&gt;: Esta declaração indica ao navegador que o documento é um documento HTML5.
+- &lt;html lang="pt-BR"&gt;: Define o idioma do documento como português do Brasil. Isso é importante para a acessibilidade e para que o navegador possa renderizar corretamente caracteres especiais e acentuação.
+- &lt;head&gt;: Contém metadados sobre a página, como o título, charset e informações para o navegador.
+- &lt;meta charset="UTF-8"&gt;: Define o conjunto de caracteres utilizado na página. UTF-8 é um padrão amplamente utilizado que suporta uma ampla variedade de caracteres.
+- &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;: Configura a viewport para dispositivos móveis, garantindo que a página seja exibida corretamente em diferentes tamanhos de tela.   
+- &lt;title&gt;Exemplo de Layout&lt;/title&gt;: Define o título da página, que é exibido na barra de título do navegador.
+- &lt;link rel="stylesheet" href="styles.css"&gt;: Inclui um arquivo CSS externo chamado "styles.css", que contém as regras de estilo para a página.
+- &lt;body&gt;: Contém o conteúdo visível da página.
 
 ## Layout da Página
 O código utiliza um layout de três colunas:
-- <aside class="menu-lateral">: Define a seção lateral para o menu de navegação.
-- <header class="cabecalho">: Define o cabeçalho da página, contendo o título e um botão.
-- <main class="principal">: Define a seção principal da página, onde o conteúdo principal será exibido.
+- &lt;aside class="menu-lateral"&gt;: Define a seção lateral para o menu de navegação.
+- &lt;header class="cabecalho"&gt;: Define o cabeçalho da página, contendo o título e um botão.
+- &lt;main class="principal"&gt;: Define a seção principal da página, onde o conteúdo principal será exibido.
 
 ## Elementos e Classes
-- <div class="container">: Cria um contêiner para organizar os elementos da página.
-- <ul> e <li>: Usados para criar uma lista não ordenada.
-- <a href="#">: Cria um link para outra página ou seção da página.
-- <button class="btn-animate">: Cria um botão.
+- &lt;div class="container"&gt;: Cria um contêiner para organizar os elementos da página.
+- &lt;ul&gt; e &lt;li&gt;: Usados para criar uma lista não ordenada.
+- &lt;a href="#"&gt;: Cria um link para outra página ou seção da página.
+- &lt;button class="btn-animate"&gt;: Cria um botão.
 
 # style.css
 Classes CSS: As classes CSS definidas no arquivo "styles.css" serão usadas para estilizar os elementos da página.
@@ -29,7 +29,7 @@ O código CSS apresentado definiu o estilo visual da página HTML. Vamos analisa
 
 ## Layout Base com Grid
 - body { ... }: Define as propriedades gerais do corpo da página, como margem, fonte e layout.
-- display: grid;: Configura o elemento <body> para usar o layout em grid, permitindo posicionar os elementos de forma flexível.
+- display: grid;: Configura o elemento &lt;body&gt; para usar o layout em grid, permitindo posicionar os elementos de forma flexível.
 - grid-template-areas: Define as áreas de grid para os elementos. Neste caso, o layout é dividido em duas áreas: "menu" e "principal".
 - grid-template-columns: Define a largura das colunas do grid. A primeira coluna tem 200 pixels e a segunda ocupa o restante do espaço.
 - gap: 10px;: Define o espaço entre os elementos do grid.
